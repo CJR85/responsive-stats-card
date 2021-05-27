@@ -89,7 +89,20 @@ body {
 .info-right::after {
   width: 1px;
   height: 100%;
-
   left: 50%;
   transform: translate(-50%, 50%);
+}
+
+.stat-group {
+  padding: 2.5rem;
+}
+
+.stat-number {
+  font-size: 2.6rem;
+  letter-spacing: 1px;
+  margin-bottom: 0.6rem;
+}
+
+.stat-name {
+  text-transform: uppercase;
 }
